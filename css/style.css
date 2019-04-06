@@ -1,0 +1,57 @@
+h1 {
+  text-align: center;
+}
+
+#quoteDisplay{
+ text-align: center;
+ font-size: 25px;
+}
+.square {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background: ;
+    transform: translate(-50%, -50%);
+}
+
+button{
+    text-align: center;
+    width: 8rem;
+    height: 2.5rem;
+    display: block;
+    background-color: $button-bg;
+    margin: 15px;
+    border:solid;
+    color:$white;
+    font-size: 1.25rem;
+    border-radius: .5rem;
+    transition: all .35s ease;
+    cursor: pointer;
+    &:hover{
+      background-color: #307890;
+    }
+    &:focus{
+      outline:none;
+    }
+  }
+
+#tweet-btn {
+  text-align: center;
+    width: 8rem;
+    height: 2.5rem;
+    display: block;
+    background-color: $button-bg;
+    margin: 15px;
+    border:solid;
+    color:$white;
+    font-size: 1.25rem;
+    border-radius: .5rem;
+    transition: all .35s ease;
+    cursor: pointer;
+    &:hover{
+      background-color: #307890;
+    }
+    &:focus{
+      outline:none;
+    }
+  }
